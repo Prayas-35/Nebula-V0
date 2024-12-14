@@ -445,7 +445,7 @@ const abi = [
   },
 ];
 
-const address = "0xB682951A1aDdB4759efbAbF4440EeB2f3006FA16";
+const address = "0xDE115676F736F154eEF8398A37e4ACB4d61892e6";
 
 export default abi;
 export { address };

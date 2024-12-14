@@ -120,7 +120,7 @@ export function MyCampaigns(props: { data: Campaign[] }) {
                       {camp.description}
                     </p>
                     <button className="shadow-[0_0_0_3px_#000000_inset] px-2 w-32 text-base py-2 bg-transparent border border-black dark:border-white dark:text-white text-black rounded-lg font-bold transform hover:-translate-y-1 transition duration-400 mt-2 disabled cursor-default">
-                      Goal: {Number(camp.goal) / 10 ** 18} AIA
+                      Goal: {Number(camp.goal) / 10 ** 18} MNT
                     </button>
                     <div className="flex justify-between items-center mt-4 w-full gap-10 text-base">
                       {!camp.isWithdrawn && (

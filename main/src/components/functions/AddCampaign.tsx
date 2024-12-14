@@ -188,7 +188,7 @@ const AddCampaign = () => {
                     <FormControl>
                       <Input
                         type="number"
-                        placeholder="Enter your goal (in AIA)"
+                        placeholder="Enter your goal (in MNT)"
                         {...field}
                       />
                     </FormControl>

@@ -93,10 +93,10 @@ export default function Contribution() {
           ) : address ? (
             contriCamps && contriCamps.length > 0 ? (
               contriCamps.map((camp, index) => {
-                const raisedInAIA = Number(camp.raised) / 10 ** 18;
-                const goalInAIA = Number(camp.goal) / 10 ** 18;
+                const raisedInMNT = Number(camp.raised) / 10 ** 18;
+                const goalInMNT = Number(camp.goal) / 10 ** 18;
                 const progressPercentage = Math.round(
-                  (raisedInAIA / goalInAIA) * 100
+                  (raisedInMNT / goalInMNT) * 100
                 );
 
                 return (
@@ -126,8 +126,8 @@ export default function Contribution() {
                           className="w-full"
                         />
                         <div className="flex justify-between text-sm">
-                          <span>Raised: {raisedInAIA.toFixed(2)} AIA</span>
-                          <span>Goal: {goalInAIA.toFixed(2)} AIA</span>
+                          <span>Raised: {raisedInMNT.toFixed(2)} MNT</span>
+                          <span>Goal: {goalInMNT.toFixed(2)} MNT</span>
                         </div>
 
                         {camp.funders.map((funder: Funder, index: number) => {

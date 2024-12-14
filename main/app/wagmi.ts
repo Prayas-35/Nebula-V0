@@ -1,5 +1,5 @@
 import { http, cookieStorage, createConfig, createStorage } from "wagmi";
-import { mainnet, sepolia, polygonAmoy, baseSepolia } from "wagmi/chains";
+import { mainnet, sepolia, polygonAmoy, baseSepolia, mantleSepoliaTestnet } from "wagmi/chains";
 import { connectorsForWallets } from "@rainbow-me/rainbowkit";
 import { type Chain } from "viem";
 
@@ -28,7 +28,7 @@ export const aia = {
 
 export function getConfig(connectors: ReturnType<typeof connectorsForWallets>) {
   return createConfig({
-    chains: [mainnet, sepolia, polygonAmoy, baseSepolia, aia],
+    chains: [mainnet, sepolia, polygonAmoy, baseSepolia, aia, mantleSepoliaTestnet],
     connectors,
     storage: createStorage({
       storage: cookieStorage,
@@ -40,6 +40,7 @@ export function getConfig(connectors: ReturnType<typeof connectorsForWallets>) {
       [sepolia.id]: http(),
       [baseSepolia.id]: http(),
       [aia.id]: http(),
+      [mantleSepoliaTestnet.id]: http(),
     },
   });
 }
