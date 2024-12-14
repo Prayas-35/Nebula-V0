@@ -2,9 +2,10 @@ import { ethers } from "hardhat";
 
 async function main() {
   // Get the ContractFactory for the contract
+  console.log("Deploying Nebula...");
   const Nebula = await ethers.deployContract("Nebula");
 
-  console.log("Deploying Nebula...");
+  // console.log("Deploying Nebula...");
 
   // Wait for the deployment to complete
   await Nebula.waitForDeployment();
