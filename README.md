@@ -41,10 +41,10 @@ cd main
 npm i
 npm run dev
 ```
-The contract is already deployed at the address `0x60B543d0835f879F8F7D721Ba45BBb809Bba4a19` at Base Sepolia Test Network.
+The contract is already deployed at the address `0xDE115676F736F154eEF8398A37e4ACB4d61892e6` at Base Sepolia Test Network.
 Have fun navigating through our application. Cheers!
 
 We welcome contributions! Please fork the repository and submit a pull request.
 
 # Current Status
-Although we haven't implemented the voting and proposal feature yet, we are continuously working to enhance the platform and address any challenges. We also plan to make this responsive in future versions. Furthermore, we plan to integrate `BaseNames`, allowing users to claim unique, human-readable names for their wallets, making transactions and interactions on the platform even more user-friendly.
+Although we haven't implemented the voting and proposal feature yet, we are continuously working to enhance the platform and address any challenges. We also plan to make this responsive in future versions.
