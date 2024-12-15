@@ -40,7 +40,7 @@ cd main
 npm i
 npm run dev
 ```
-The contract is already deployed at the address `0xDE115676F736F154eEF8398A37e4ACB4d61892e6` at Base Sepolia Test Network.
+The contract is already deployed at the address `0xDE115676F736F154eEF8398A37e4ACB4d61892e6` at Mantle Sepolia Test Network.
 Have fun navigating through our application. Cheers!
 
 We welcome contributions! Please fork the repository and submit a pull request.
