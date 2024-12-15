@@ -25,14 +25,14 @@ View ongoing campaigns, total amounts raised, and voting results.
 ### Smart Contracts: 
 `Solidity`
 ### Deployment: 
-`Hardhat` (testnet deployment on Base Sepolia)
+`Hardhat` (testnet deployment on Mantle Sepolia)
 
 ## Installation
 Although we have a publicly accessible URL at [Nebula](https://nebula-six-iota.vercel.app), here's the guide for installation into your local machine:
 
 Clone the repository:
 ``` 
-git clone https://github.com/srijan399/Nebula 
+git clone https://github.com/Prayas-35/Nebula-V0.git 
 ```
 Navigate to the repository and use the following commands:
 ```
